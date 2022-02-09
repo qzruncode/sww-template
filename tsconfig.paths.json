@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "emonitorchart": ["./emonitorchart/index.tsx"],
+      "$enhance/*": ["./enhance/*"],
+      "$components/*": ["./components/*"],
+      "$containers/*": ["./containers/*"],
+      "$constants/*": ["./constants/*"],
+      "$services/*": ["./service/*"],
+      "$models/*": ["./models/*"],
+      "$styles/*": ["./styles/*"],
+      "$utils/*": ["./utils/*"],
+      "$store/*": ["./store/*"],
+      "$hooks/*": ["./hooks/*"],
+      "$asset/*": ["./asset/*"],
+    }
+  }
+}
