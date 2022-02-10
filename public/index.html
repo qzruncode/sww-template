@@ -6,9 +6,16 @@
     <meta name="theme-color" content="#000000">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <title>sww-template</title>
-    <script src="./register.js"></script>
 </head>
 <body>
     <div id="main"></div>
 </body>
+<script>
+    if("%Dev%" !== "true") {
+        // 编译环境才加载 register.js
+        const ele = document.createElement('script');
+        ele.src = "./register.js";
+        document.getElementsByTagName('head')[0].appendChild(ele);
+    }
+</script>
 </html>

@@ -1,4 +1,17 @@
-## 使用
+## sww-template
+
+1. 本模板是本人在开发[cacheweb-webpack-plugin](https://www.npmjs.com/package/cacheweb-webpack-plugin)时定义的，开箱即用集成了开发前端项目所需要个各种配置。
+2. 使用本模板需要借助[sww-cli](https://www.npmjs.com/package/sww-cli)安装，安装步骤如下
+   
+    ```
+    git init
+    npm install sww-cli
+    npx sww-cli init sww-template
+    npm install
+    npm start 开发
+    npm build 生产
+    ```
+## 模板命令
 
 + npm start           运行
 + npm run build       编译
