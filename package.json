@@ -1,6 +1,6 @@
 {
   "name": "sww-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "sww-cli的应用模板，用于快速生成demo应用",
   "homepage": "https://github.com/qzruncode/sww-template#readme",
   "sideEffects": [
